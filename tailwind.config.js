@@ -1,3 +1,5 @@
+
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -15,6 +17,11 @@ module.exports = {
       screens: {
         "2xl": "1400px",
       },
+    },
+    fontFamily: {
+      'sans': ['Poppins', 'sans-serif'],
+      'secondary': ['Afacad', 'sans-serif'],
+      'kristi': ['Kristi', 'cursive'],
     },
     extend: {
       colors: {

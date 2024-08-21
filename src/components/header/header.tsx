@@ -4,9 +4,9 @@ import HeaderNavigation from "./header-navigation"
 const Header = () => {
   return (
     <div className="flex justify-between">
-      <div>Yamal</div>
+      <div className="text-gray-500 font-kristi text-4xl">Yamal</div>
       <HeaderNavigation />
-      <Button>Lets Talk</Button>
+      <Button className="bg-gray-700">Lets Talk</Button>
     </div>
   )
 }
