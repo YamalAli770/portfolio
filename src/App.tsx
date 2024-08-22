@@ -5,6 +5,7 @@ import Header from './components/header/header';
 import About from './routes/About';
 import Work from './routes/Work';
 import Contact from './routes/Contact';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function Layout() {
     <>
       <Header />
       <Outlet />
+      <Footer />
     </>
   );
 }

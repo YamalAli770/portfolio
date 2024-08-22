@@ -1,9 +1,9 @@
+import MainGrid from "@/components/home-grid/main-grid"
+
 const Home = () => {
   return (
     <>
-      <div>
-        Home
-      </div>
+      <MainGrid />
     </>
   )
 }

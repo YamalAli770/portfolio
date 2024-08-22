@@ -22,9 +22,15 @@ module.exports = {
       'sans': ['Poppins', 'sans-serif'],
       'secondary': ['Afacad', 'sans-serif'],
       'kristi': ['Kristi', 'cursive'],
+      'playwrite': ['Playwrite CZ', 'cursive']
     },
     extend: {
       colors: {
+        'card-bg-dark': '#1A1A1A',
+        'card-bg-light': '#1E1E1E',
+        'card-bg-lighter': '#202020',
+        'profile-social': '#282828',
+        'main-accent': '#CFFF04',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
