@@ -1,6 +1,10 @@
+import MainGrid from "@/components/about-grid/main-grid"
+
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+      <MainGrid />
+    </div>
   )
 }
 
