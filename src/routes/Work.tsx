@@ -1,6 +1,10 @@
+import MainGrid from "@/components/work-grid.tsx/main-grid"
+
 const Work = () => {
   return (
-    <div>Work</div>
+    <div>
+      <MainGrid />
+    </div>
   )
 }
 

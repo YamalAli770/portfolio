@@ -84,6 +84,9 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        'gradient-card-dark': 'linear-gradient(150deg, rgba(2,0,36,1) 0%, rgba(62,58,58,1) 45%, rgba(48,51,51,1) 100%)',
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
