@@ -31,6 +31,7 @@ module.exports = {
         'card-bg-lighter': '#202020',
         'profile-social': '#282828',
         'main-accent': '#CFFF04',
+        'primary-btn': '#323232',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

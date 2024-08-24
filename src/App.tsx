@@ -6,6 +6,7 @@ import About from './routes/About';
 import Work from './routes/Work';
 import Contact from './routes/Contact';
 import Footer from './components/footer';
+import ScrollToTop from './components/scrollToTop';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
 function Layout() {
   return (
     <>
+      <ScrollToTop />
       <Header />
       <Outlet />
       <Footer />
