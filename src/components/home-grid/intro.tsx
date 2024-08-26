@@ -9,8 +9,8 @@ const Intro = () => {
         <img className="w-52 h-64 object-cover rounded-tl-3xl rounded-br-3xl" src="src/assets/profile-pic.jpg" alt="profile-pic" />
           <div className="flex flex-col gap-1 justify-center items-center text-left">
             <h3 className="w-full uppercase text-sm font-medium text-gray-400">A Software Engineer</h3>
-            <h1 className="w-full [word-spacing:100vw] text-6xl font-medium break-all text-white">Yamal Ali</h1>
-            <p className="w-full font-secondary text-gray-400">I am a Software Engineer based in Karachi, Pakistan.</p>
+            <h1 className="w-full [word-spacing:100vw] text-6xl font-medium break-all text-white font-acorn">Yamal Ali</h1>
+            <p className="w-full text-gray-400">I am a Software Engineer based in Karachi, Pakistan.</p>
           </div>
       </CardContent>
       <CardFooter className="flex justify-end">

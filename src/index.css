@@ -6,6 +6,16 @@ body {
   background-color: black;
 }
 
+@font-face {
+  font-family: "GT Planar";
+  src: url('../public/fonts/gt-planar.otf');
+}
+
+@font-face {
+  font-family: "Acorn";
+  src: url('../public/fonts/acorn-6.ttf');
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

@@ -56,7 +56,7 @@ const TechStack = () => {
   return (
     <Card className="bg-card-bg-light border border-gray-800 col-span-7">
       <CardHeader className="relative">
-        <h1 className="text-white text-left text-3xl uppercase font-medium">
+        <h1 className="text-white text-left text-3xl uppercase font-medium font-acorn">
           Technologies
         </h1>
         <img src="src/assets/hang-star-icon.png" alt="hanging star" className="w-16 h-16 object-contain absolute -top-2 right-0" />

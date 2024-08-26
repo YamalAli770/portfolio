@@ -19,10 +19,12 @@ module.exports = {
       },
     },
     fontFamily: {
-      'sans': ['Poppins', 'sans-serif'],
+      'sans': ['GT Planar', 'sans-serif'],
       'secondary': ['Afacad', 'sans-serif'],
       'kristi': ['Kristi', 'cursive'],
-      'playwrite': ['Playwrite CZ', 'cursive']
+      'playwrite': ['Playwrite CZ', 'cursive'],
+      'planar': ["GT Planar", "sans-serif"],
+      'acorn': ["Acorn", "sans-serif"]
     },
     extend: {
       colors: {

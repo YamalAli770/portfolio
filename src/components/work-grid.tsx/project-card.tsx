@@ -18,7 +18,7 @@ const ProjectCard = ({ img, category, name, href }: ProjectCardProps) => {
         <CardContent className="flex justify-between items-center">
             <div className="flex flex-col gap-1 items-start">
                 <h3 className="text-gray-500 uppercase text-sm">{category}</h3>
-                <h1 className="text-white font-medium text-xl">{name}</h1>
+                <h1 className="text-white font-medium text-xl font-acorn">{name}</h1>
             </div>
             <Link to={href}>
                 <CardLinkIcon />

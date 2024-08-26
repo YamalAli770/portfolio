@@ -44,7 +44,7 @@ const MainGrid = () => {
     <div className="grid grid-cols-6 items-center gap-5 mt-28">
         <div className="flex items-center justify-center gap-5 col-span-4 row-span-2 col-start-3">
             <img src="src/assets/star-icon.png" alt="star-icon" />
-            <h1 className="text-8xl text-white font-medium uppercase">All Projects</h1>
+            <h1 className="text-8xl text-white font-medium uppercase font-acorn">All Projects</h1>
             <img src="src/assets/star-icon.png" alt="star-icon" />
         </div>
         {projectData.map((project) => (

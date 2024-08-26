@@ -13,7 +13,7 @@ const ContactItem = ({ icon, title, values }: ContactItemProps) => {
             {icon}
         </div>
         <div className="flex flex-col gap-2">
-            <h3 className="text-gray-500 uppercase text-left">{title}</h3>
+            <h3 className="text-gray-500 uppercase text-left font-acorn">{title}</h3>
             <div className="flex flex-col items-start">
                 {values.map((value, index) => (
                     <span className="text-white text-sm font-medium" key={index}>{value}</span>

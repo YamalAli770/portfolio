@@ -19,7 +19,7 @@ const socialItems: SocialItemProps[] = [
 const SocialInfo = () => {
   return (
     <div className="flex flex-col gap-5">
-      <h2 className="text-white text-left uppercase font-medium">Social Info</h2>
+      <h2 className="text-white text-left uppercase font-medium font-acorn">Social Info</h2>
       <div className="flex gap-5">
         {socialItems.map((item, index) => (
           <SocialItem key={index} {...item} />

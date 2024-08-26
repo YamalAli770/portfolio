@@ -22,7 +22,7 @@ const contactItems: ContactItemProps[] = [
 const ContactInfo = () => {
   return (
     <div className="flex flex-col gap-5">
-        <h2 className="text-white text-left uppercase font-medium">Contact Info</h2>
+        <h2 className="text-white text-left uppercase font-medium font-acorn">Contact Info</h2>
         <div className="flex flex-col gap-20">
           {contactItems.map((item, index) => (
               <ContactItem key={index} {...item} />

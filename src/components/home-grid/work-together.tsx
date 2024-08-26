@@ -6,7 +6,7 @@ const WorkTogether = () => {
   return (
     <Card className="bg-card-bg-dark border border-gray-800 col-span-5 rounded-3xl">
       <CardContent className="flex justify-between items-end py-12">
-        <div className="text-white text-5xl font-medium">
+        <div className="text-white text-5xl font-medium font-acorn">
           <h1>Let's work <span className="text-main-accent">together</span></h1>
         </div>
         <Link to='/contact'>

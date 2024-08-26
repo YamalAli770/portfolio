@@ -19,7 +19,7 @@ const CardMulti = ({cardLogo, text, title, href}: CardMultiProps) => {
         <CardFooter className="flex justify-between items-end">
           <div className="flex flex-col gap-5 items-start">
             <h3 className="text-gray-400 uppercase font-medium text-sm">{text}</h3>
-            <h1 className="text-white text-lg font-medium">{title}</h1>
+            <h1 className="text-white text-lg font-medium font-acorn">{title}</h1>
           </div>
           <Link to={href}>
             <CardLinkIcon />
