@@ -7,6 +7,7 @@ import Work from './routes/Work';
 import Contact from './routes/Contact';
 import Footer from './components/footer';
 import ScrollToTop from './components/scrollToTop';
+import Services from './routes/Services';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="work" element={<Work />} />
+        <Route path="services" element={<Services />} />
         <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>

@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <Card className="col-span-3 bg-card-bg-dark border-gray-800 rounded-3xl">
       <CardContent className="flex gap-8 p-10">
-        <img className="w-52 h-64 object-cover rounded-tl-3xl rounded-br-3xl" src="src/assets/profile-pic.jpg" alt="profile-pic" />
+        <img className="w-52 h-64 object-cover rounded-tl-3xl rounded-br-3xl" src="src/assets/profile-gradient.png" alt="profile-pic" />
           <div className="flex flex-col gap-1 justify-center items-center text-left">
             <h3 className="w-full uppercase text-sm font-medium text-gray-400">A Software Engineer</h3>
             <h1 className="w-full [word-spacing:100vw] text-6xl font-medium break-all text-white font-acorn">Yamal Ali</h1>
