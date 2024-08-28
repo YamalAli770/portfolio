@@ -29,7 +29,7 @@ const projectData = [
     img: "src/assets/work/kohaku.jpg",
     category: "Website Designing",
     name: "Kohaku",
-    href: "/work/submarine"
+    href: "https://kohakku.netlify.app/"
   },
 ]
 
