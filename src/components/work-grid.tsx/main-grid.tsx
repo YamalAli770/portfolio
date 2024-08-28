@@ -2,41 +2,35 @@ import ProjectCard from "@/components/work-grid.tsx/project-card"
 
 const projectData = [
   {
-    img: "https://plus.unsplash.com/premium_photo-1675896084254-dcb626387e1e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    img: "src/assets/work/studysphere.jpg",
     category: "Web Application",
     name: "Study Sphere",
     href: "https://studysphere-frontend-omega.vercel.app/"
   },
   {
-    img: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    img: "src/assets/work/synq.jpg",
     category: "Mobile Application",
     name: "Synq",
     href: "/work/seven-studio"
   },
   {
-    img: "https://images.unsplash.com/photo-1556228578-567ba127e37f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    img: "src/assets/work/zawiyah.jpg",
     category: "Web Application",
     name: "Zawiyah",
     href: "https://zawiyah-frontend-sigma.vercel.app/"
   },
   {
-    img: "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    img: "src/assets/work/guythatcooks.jpg",
     category: "Web Application",
     name: "Guy That Cooks",
     href: "https://guythatcooks.netlify.app/"
   },
   {
-    img: "https://plus.unsplash.com/premium_photo-1677541205130-51e60e937318?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHByb2R1Y3R8ZW58MHx8MHx8fDA%3D",
+    img: "src/assets/work/kohaku.jpg",
     category: "Website Designing",
     name: "Kohaku",
     href: "/work/submarine"
   },
-  {
-    img: "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2R1Y3R8ZW58MHx8MHx8fDA%3D",
-    category: "Web Designing",
-    name: "Hydra Merc",
-    href: "/work/hydra-merc"
-  }
 ]
 
 const MainGrid = () => {
