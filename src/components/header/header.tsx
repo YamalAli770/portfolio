@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { Button } from "../ui/button"
 import HeaderNavigation from "./header-navigation"
-import { Menu } from "lucide-react"
+import MobileNavigation from "./mobile-navigation"
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
       <Button asChild className="md:block hidden bg-primary-btn hover:bg-white hover:text-black">
         <Link to="/contact">Let's Talk</Link>
       </Button>
-      <Menu className="md:hidden block" color="white" />
+      <MobileNavigation />
     </div>
   )
 }
