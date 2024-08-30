@@ -22,7 +22,7 @@ const services = [
 
 const ServiceList = () => {
   return (
-    <Card className="col-span-2 bg-card-bg-dark rounded-3xl border border-gray-800">
+    <Card className="col-span-2 xl:block hidden bg-card-bg-dark rounded-3xl border border-gray-800">
       <CardContent className="flex flex-col gap-28 text-white p-20">
         {services.map((service) => (
           <div className="flex items-center gap-14">
