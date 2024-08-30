@@ -13,7 +13,7 @@ const MainGrid = () => {
         <Intro />
         <div className="flex flex-col lg:col-span-2 col-span-5 gap-5">
             <ScrollText />
-            <div className="flex flex-1 w-full gap-5">
+            <div className="flex lg:flex-row flex-col flex-1 w-full gap-5">
                 <Credentials />
                 <Projects />
             </div>
