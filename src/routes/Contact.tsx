@@ -4,8 +4,8 @@ import SocialInfo from "@/components/contact/social-info"
 
 const Contact = () => {
   return (
-    <div className="flex justify-between pt-28">
-      <div className="flex flex-col gap-10">
+    <div className="flex md:flex-row flex-col-reverse md:items-left gap-10 justify-between pt-28">
+      <div className="flex flex-col md:items-start gap-10">
         <ContactInfo />
         <SocialInfo />
       </div>

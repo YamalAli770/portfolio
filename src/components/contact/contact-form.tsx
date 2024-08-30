@@ -46,7 +46,7 @@ const ContactForm = () => {
   };
 
   return (
-    <Card className="bg-card-bg-dark border border-gray-800 rounded-3xl w-8/12 relative p-5">
+    <Card className="bg-card-bg-dark border border-gray-800 rounded-3xl md:w-8/12 relative p-5 md:mx-0 mx-auto">
       <CardHeader className="flex flex-row">
         <h1 className="text-white text-5xl font-medium font-acorn">
           Let's work <span className="text-main-accent">together.</span>
