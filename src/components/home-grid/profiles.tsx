@@ -17,7 +17,7 @@ const socialProfiles = [
 const ProfileList  = () => {
   return (
     <Card className="w-full h-full rounded-3xl bg-card-bg-lighter border-gray-800">
-      <CardContent className="pt-6 flex justify-between items-center h-full">
+      <CardContent className="pt-6 flex xl:justify-between justify-around items-center h-full">
         {socialProfiles.map((profile, index) => (
           <ProfileItem key={index} icon={profile.icon} href={profile.href} />
         ))}
@@ -28,7 +28,9 @@ const ProfileList  = () => {
 
 const Profiles = () => {
   return (
-    <CardMulti cardLogo={<ProfileList />} text="Stay With Me" title="Profiles" href="contact" />
+    <div className="xl:col-span-1 md:col-span-2 col-span-5">
+      <CardMulti cardLogo={<ProfileList />} text="Stay With Me" title="Profiles" href="contact" />
+    </div>
   )
 }
 

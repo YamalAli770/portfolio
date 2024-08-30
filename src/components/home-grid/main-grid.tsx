@@ -11,7 +11,7 @@ const MainGrid = () => {
   return (
     <div className="grid grid-cols-5 gap-5 text-white mt-28">
         <Intro />
-        <div className="flex flex-col col-span-2 gap-5">
+        <div className="flex flex-col lg:col-span-2 col-span-5 gap-5">
             <ScrollText />
             <div className="flex flex-1 w-full gap-5">
                 <Credentials />

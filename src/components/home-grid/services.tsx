@@ -14,7 +14,7 @@ const ServicesLogo = () => {
 
 const Services = () => {
   return (
-    <div className="col-span-3">
+    <div className="lg:col-span-3 col-span-5">
         <CardMulti cardLogo={<ServicesLogo />} text="Specialization" title="Services Offering" href="/services" />
     </div>
   )

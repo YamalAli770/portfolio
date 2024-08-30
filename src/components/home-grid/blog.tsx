@@ -9,7 +9,7 @@ const BlogsLogo = () => {
 
 const Blog = () => {
   return (
-    <div className="col-span-1">
+    <div className="lg:col-span-2 xl:col-span-1 col-span-5">
       <CardMulti cardLogo={<BlogsLogo />} text="My Writings" title="Blogs" href="/blogs" />
     </div>
   )

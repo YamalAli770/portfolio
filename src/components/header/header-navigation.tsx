@@ -2,7 +2,7 @@ import NavigationLink from "./nav-link"
 
 const HeaderNavigation = () => {
   return (
-    <div className="flex items-center">
+    <div className="md:flex items-center hidden">
         <ul className="flex gap-9 list-none font-semibold">
             <li><NavigationLink name="Home" href="/" /></li>
             <li><NavigationLink name="About" href="/about" /></li>

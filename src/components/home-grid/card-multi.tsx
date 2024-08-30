@@ -16,8 +16,8 @@ const CardMulti = ({cardLogo, text, title, href}: CardMultiProps) => {
         <CardContent className="h-full flex items-center justify-center pt-6">
           {cardLogo}
         </CardContent>
-        <CardFooter className="flex justify-between items-end">
-          <div className="flex flex-col gap-5 items-start">
+        <CardFooter className="flex justify-between items-end gap-2">
+          <div className="flex flex-col gap-5 items-start text-left">
             <h3 className="text-gray-400 uppercase font-medium text-sm">{text}</h3>
             <h1 className="text-white text-lg font-medium font-acorn">{title}</h1>
           </div>
