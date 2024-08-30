@@ -23,7 +23,7 @@ const experienceDetails: CardMultiProps = {
 
 const Experience = () => {
   return (
-    <div className="col-span-4">
+    <div className="sm:col-span-4 col-span-7">
       <CardMulti {...experienceDetails} />
     </div>
   )

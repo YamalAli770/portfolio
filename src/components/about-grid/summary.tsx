@@ -2,9 +2,9 @@ import { Card, CardContent, CardHeader } from "../ui/card"
 
 const Summary = () => {
   return (
-    <div className="col-span-5 flex flex-col gap-5">
+    <div className="lg:col-span-5 col-span-7 flex flex-col gap-5">
       <h1 className="text-gray-500 flex items-center gap-2">
-        <span className="text-8xl font-semibold text-white uppercase font-acorn">Self Summary</span>
+        <span className="sm:text-8xl text-7xl font-semibold text-white uppercase font-acorn lg:mx-0 mx-auto">Self Summary</span>
       </h1>
       <Card className="flex flex-col justify-between bg-card-bg-lighter border border-gray-800 h-full rounded-3xl">
         <CardContent className="flex flex-col text-left gap-3">

@@ -18,7 +18,7 @@ const educationDetails: CardMultiProps = {
 
 const Education = () => {
   return (
-    <div className="col-span-3">
+    <div className="sm:col-span-3 col-span-7">
       <CardMulti {...educationDetails} />
     </div>
   )
