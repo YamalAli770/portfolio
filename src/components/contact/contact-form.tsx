@@ -5,7 +5,7 @@ import { Input } from "../ui/input"
 import { Textarea } from "../ui/textarea"
 import { Form, FormControl, FormField, FormItem, FormMessage } from "../ui/form"
 
-import emailjs, { EmailJSResponseStatus } from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
