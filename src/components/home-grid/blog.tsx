@@ -2,7 +2,7 @@ import CardMulti from "./card-multi"
 
 const BlogsLogo = () => {
   return (
-    <img src="src/assets/blogs-icon.png" alt="" />
+    <img src="assets/blogs-icon.png" alt="" />
   )
 
 };

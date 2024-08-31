@@ -59,7 +59,7 @@ const TechStack = () => {
         <h1 className="text-white text-left text-3xl uppercase font-medium font-acorn">
           Technologies
         </h1>
-        <img src="src/assets/hang-star-icon.png" alt="hanging star" className="w-16 h-16 object-contain absolute -top-2 right-0" />
+        <img src="assets/hang-star-icon.png" alt="hanging star" className="w-16 h-16 object-contain absolute -top-2 right-0" />
       </CardHeader>
       <CardContent className="flex items-center gap-10 justify-center flex-wrap">
         {techItems.map((item, index) => (
