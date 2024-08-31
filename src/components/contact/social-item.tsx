@@ -8,7 +8,7 @@ export interface SocialItemProps {
 
 const SocialItem = ({ icon, href }: SocialItemProps) => {
   return (
-    <Link to={href} className="bg-card-bg-dark border border-gray-800 rounded-full p-5 transition-all hover:invert">
+    <Link to={href} target="__blank" className="bg-card-bg-dark border border-gray-800 rounded-full p-5 transition-all hover:invert">
         {icon}
     </Link>
   )

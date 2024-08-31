@@ -8,7 +8,7 @@ interface ProfileItemProps {
 
 const ProfileItem = ({ icon, href }: ProfileItemProps) => {
   return (
-    <Link to={href} className="group bg-profile-social rounded-full p-3 transition-all hover:bg-white">
+    <Link to={href} target="__blank" className="group bg-profile-social rounded-full p-3 transition-all hover:bg-white">
         <div className="group-hover:invert">
             {icon}
         </div>
